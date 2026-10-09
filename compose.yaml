@@ -1,0 +1,10 @@
+services:
+  ipa-source:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:18090:8080"
+    volumes:
+      - ./data:/data
+      # Optional read-only Dagu artifact gateway:
+      # - /path/to/dagu/state:/dagu-data:ro

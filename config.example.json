@@ -1,0 +1,12 @@
+{
+  "public_base": "https://ipa.example.com",
+  "port": 8080,
+  "feed_token": "REPLACE_WITH_RANDOM_PRIVATE_FEED_CAPABILITY",
+  "artifact_token": "REPLACE_WITH_SEPARATE_RANDOM_CI_READ_TOKEN",
+  "catalog_path": "/data/catalog.json",
+  "files_root": "/data/files",
+  "artifact_registry": "/data/artifact-registry.json",
+  "artifact_root": "/dagu-data/data/artifacts",
+  "openlist_url": "http://openlist:5244",
+  "openlist_token": "REPLACE_WITH_OPENLIST_API_TOKEN"
+}
